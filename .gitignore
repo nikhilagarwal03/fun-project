@@ -1,7 +1,13 @@
-songs/
-covers/
+# Ignore everything in songs/ except .gitkeep
+songs/*
+!songs/.gitkeep
+
+# Ignore everything in covers/ except .gitkeep
+covers/*
+!covers/.gitkeep
+
+# Other common ignores
 node_modules/
 .env
 .DS_Store
 Thumbs.db
-
